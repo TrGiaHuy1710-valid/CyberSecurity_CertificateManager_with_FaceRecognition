@@ -19,10 +19,10 @@ from rsq_mappingid import get_clean_content, verify_signature  # :contentReferen
 # ====== CẤU HÌNH CSDL (đồng bộ với các module đã có) ======
 DB_CONFIG = {
     "host": "127.0.0.1",
-    "user": "postgres",
-    "password": "huyyuh",
-    "dbname": "cyber_verify_certificate",
-    "port": 5432
+    "user": "user",
+    "password": "password",
+    "dbname": "database",
+    "port": 0000
 }
 
 
@@ -777,3 +777,4 @@ class FaceModifyPage(tk.Frame):
 if __name__ == "__main__":
     app = ManagementApp()
     app.mainloop()
+
